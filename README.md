@@ -20,12 +20,13 @@ In this repo, we provide three open examples provided by Keras library:
 The cart-pole agent can solve around 2x faster with the custom loss function with seldom instability in training. The MNIST supervised learning example finds slightly better generalization with the custom loss function compared to the cross-entropy loss. Finally, both loss functions perform equally good in lstm sequence-to-sequence architecture. 
 
 #### Cartpole result
-Below is the mean score over last 10 episodes for the custom loss
 ![alt text](https://github.com/ggaamm/ce_custom_loss/blob/main/images/custom_loss_cartpole.png "Mean score over last 10 episodes")
 
-Below is the mean score over last 10 episodes for the cross entropy loss
+Above is the mean score over last 10 episodes for the custom loss
+ 
 ![alt text](https://github.com/ggaamm/ce_custom_loss/blob/main/images/cross_entropy_cartpole.png "Mean score over last 10 episodes")
 
+Above is the mean score over last 10 episodes for the cross entropy loss
 
 #### Custom loss function code
 Below is the custom loss function in python that works with Keras library
