@@ -21,16 +21,16 @@ The cart-pole agent can solve around 2x faster with the custom loss function wit
 
 #### Cartpole result
 Below is the mean score over last 10 episodes for the custom loss
-![alt text](custom_loss_cartpole.png "Mean score over last 10 episodes")
+![alt text](https://github.com/ggaamm/ce_custom_loss/blob/main/images/custom_loss_cartpole.png "Mean score over last 10 episodes")
 
 Below is the mean score over last 10 episodes for the cross entropy loss
-![alt text](cross_entropy_cartpole.png "Mean score over last 10 episodes")
+![alt text](https://github.com/ggaamm/ce_custom_loss/blob/main/images/cross_entropy_cartpole.png "Mean score over last 10 episodes")
 
 
 #### Custom loss function code
 Below is the custom loss function in python that works with Keras library
 ```python
-def ce_plus_loss(self, y_true, y_pred):
+def ce_custom_loss(self, y_true, y_pred):
     #print("y_true", y_true, "y_pred", y_pred)
     val = tf.square(y_true) * tf.log(y_pred) + y_true - y_pred
     return tf.reduce_sum(-val, -1)
