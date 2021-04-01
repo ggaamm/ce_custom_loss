@@ -40,3 +40,15 @@ def ce_custom_loss(self, y_true, y_pred):
 **We are encouraging the readers to try out custom loss function with their own architectures and share their results and experience.**
 
 
+## Cite this work
+You can cite this work in your work as:
+
+@misc{Malazgirt2021,
+  author = {Malazgirt, G.A.},
+  title = {Alternative loss function to the cross-entropy loss for training deep neural networks},
+  year = {2021},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/ggaamm/ce_custom_loss}},
+  commit = {d14de4ce3f447a1ff42326cbd945b24d08f4a181}
+}
