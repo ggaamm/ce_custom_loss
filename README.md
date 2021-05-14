@@ -45,10 +45,7 @@ You can cite this work in your work as:
 
 It has a DOI:
 
-![Alt text](DOI of this repo for citations)
-<img src="https://zenodo.org/badge/doi/10.5281/zenodo.4763263.svgg">
-
-https://zenodo.org/badge/353324836.svg
+<img src="https://zenodo.org/badge/doi/10.5281/zenodo.4763263.svg" />
 
 @misc{Malazgirt2021,
   author = {Malazgirt, G.A.},
